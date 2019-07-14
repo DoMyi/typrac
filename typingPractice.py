@@ -9,8 +9,6 @@ for line in f1:
     l.append(line[:-1])    
 
 while(int(input("Play?(y/n -> 1/0): "))):
-    
-    
     wrongWords = 0
     n = random.randint(10,25)
     testString = random.sample(l, n)
