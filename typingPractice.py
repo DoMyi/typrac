@@ -1,7 +1,7 @@
 import time
 import random 
 
-f1 = open('Z:/New folder/google-10000-english-master/20k.txt', 'r')
+f1 = open('/20k.txt', 'r')
 l = []
 for line in f1:
     l.append(line[:-1])    
